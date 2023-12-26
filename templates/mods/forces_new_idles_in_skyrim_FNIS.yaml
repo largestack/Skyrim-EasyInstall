@@ -1,0 +1,14 @@
+- name: "Forces New Idles In Skyrim (FNIS) XXL"
+  description: "Needed only if you plan to use mods that modify non-human animations."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/3038
+  mod_order:
+  - after: "ConsoleUtilSSE"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1yTzSIrvGeQmUAyIUR9Fa8EBp14fe5Azq/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files&file_id=124730
+  instructions-critical: |
+    IMPORTANT! FNIS has to be run every time you install or uninstall a mod that adds animations or character will be stuck
+    in a T-pose. To run FNIS, open the game folder and run <GAMEFOLDER>\tools\GenerateFNIS_for_Users\GenerateFNISforUsers.exe. If
+    you have MO2, you can run it from the Tools menu. You should run FNIS followed by afterwards Nemesis if you have both installed.

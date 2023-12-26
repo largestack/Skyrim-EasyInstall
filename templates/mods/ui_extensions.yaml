@@ -1,0 +1,12 @@
+- name: "UIExtensions"
+  description: "Adds various custom menus to Skyrim for modder use."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/17561
+  required: true
+  requires:
+  mod_order:
+  - after: "SkyUI"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/19o1OQHMsAimMkY_SywIVS4yivSSA6QCL/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/17561?tab=files&file_id=55628

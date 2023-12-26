@@ -1,0 +1,23 @@
+- name: "FSMP - Faster HDT-SMP"
+  description: "Physics for hair, capes, clothes, etc. Needed by lots of mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/57339?tab=posts
+  mod_order:
+  - after: "XP32 Maximum Skeleton Special Extended - XPMSSE"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1DSXyY1-BDAS3OaAALH_uV0x-5dfvTw73/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/57339?tab=files&file_id=450937
+  instructions-helpful: |
+    Note have SMP installed. FSMP stands for "Faster SMP" and meets the requirements of SMP.
+
+- name: "SMP-NPC crash fix"
+  description: "Required crashfix."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/91616
+  mod_order:
+  - after: "FSMP - Faster HDT-SMP"
+  install:
+  - game_version: 1.6.*.*
+    urls:
+    - https://drive.google.com/file/d/1Z0OYnqN-raFplzeWUWPLz8-NlLE8P4at/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/91616?tab=files&file_id=389370

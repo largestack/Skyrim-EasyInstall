@@ -1,0 +1,10 @@
+- name: "Static Mesh Improvement Mod - SMIM"
+  description: "Improves the meshes of various objects in Skyrim."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/659
+  mod_order:
+  - after: "XP32 Maximum Skeleton Special Extended - XPMSSE"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1I4tuQV3cxnYkF6vg24uy7HxLJqwVG1TU/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/659?tab=files&file_id=59069

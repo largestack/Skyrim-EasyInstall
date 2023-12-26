@@ -1,0 +1,14 @@
+- name: "Nemesis"
+  description: "Needed by mods for custom animations. Improved over FNIS, but both sometimes needed."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/60033
+  mod_order:
+  - after: "Forces New Idles In Skyrim (FNIS) XXL"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1iKrrbyWV_AgbOT91XTeN7MiD1mhNbLY9/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/60033?tab=files&file_id=248867
+  instructions-critical: |
+    IMPORTANT! Nemesis has to be run every time you install or uninstall a mod that adds animations or character will be stuck
+    in a T-pose. To run Nemesis, open the game folder and run <GAMEFOLDER>\CreatorContent\Nemesis_Engine\Nemesis.exe. You should
+    run FNIS first followed by afterwards Nemesis if you have both installed.

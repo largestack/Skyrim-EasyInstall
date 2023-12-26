@@ -1,0 +1,14 @@
+- name: "RaceMenu"
+  description: "Overhauls character creation menu. Needed by many mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/19080
+  mod_order:
+  - after: "PapyrusUtil SE"
+  install:
+  - game_version: 1.6.640.0
+    urls:
+    - https://drive.google.com/file/d/1mYnoX-QtdvxNlxKnYxRA4p44fyBu7kOI/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/19080?tab=files&file_id=327229
+  - game_version: 1.6.1130.0
+    urls:
+    - https://drive.google.com/file/d/1DcfkyQZ383S4Oo1Tmp7iyheC8cFKBPLs/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/19080?tab=files&file_id=450234

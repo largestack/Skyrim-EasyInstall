@@ -1,0 +1,14 @@
+- name: "Alternate Start - Live Another Life - SSE"
+  description: "Live Another Life provides an alternative means to start the game for those who do not wish to go through the lengthy intro sequence at Helgen."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=description
+  mod_order:
+  - after: "SSE Engine Fixes (skse64 plugin) Part 2"
+  install:
+  - game_version: 1.6.640.0
+    urls:
+    - https://drive.google.com/file/d/1KiL1yWPE7xLcjBoWJjgwzIB0GmiF1JTB/view?usp=drive_link
+  - game_version: 1.6.1130.0
+    urls:
+    - https://drive.google.com/file/d/1gdSUypLZoxp9t6d30KCm-VGG1x35cugA/view?usp=drive_link
+  instructions-helpful: |
+    You have installed the Alternate Start mod. To start with original start, use the "Vanilla Start" option in the MCM (Mod Configuration Manager) menu of this mod to start the game in the vanilla way.

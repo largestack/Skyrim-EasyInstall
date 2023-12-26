@@ -1,0 +1,14 @@
+- name: "JContainers SE"
+  description: "Needed by other mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/16495
+  mod_order:
+  - after: "Nemesis"
+  install:
+  - game_version: 1.6.640.0
+    urls:
+    - https://drive.google.com/file/d/1A0g_dVbwda-oC82TzzLmrBBBvxNZE1PU/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/16495?tab=files&file_id=322290
+  - game_version: 1.6.1130.0
+    urls:
+    - https://drive.google.com/file/d/1-wY-QbM8fgc6WiaSUCWqID7ad6-SvLrX/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/16495?tab=files&file_id=450407

@@ -1,0 +1,63 @@
+# Credits to Lustful Luna's guide, which I based a good part of this template on.
+# https://docs.google.com/document/d/13oShYySr5gG0RwP8NA8coaDdnjRdiVhzg144H3J5Xs0/edit
+- name: "Skyrim Core Dependencies"
+  description: "A collection of mods that are required by many other mods."
+  mods:
+  - name: "Skyrim Script Extender (SKSE64)"
+    tags: [ required_by_parent ]
+  - name: "Address Library for SKSE Plugins"
+    tags: [ required_by_parent ]
+  - name: "Visual Studio 2019 Redistributable"
+    tags: [ required_by_parent ]
+  - name: "SSE Engine Fixes (skse64 plugin) Part 1"
+    tags: [ required_by_parent ]
+  - name: "SSE Engine Fixes (skse64 plugin) Part 2"
+    tags: [ required_by_parent ]
+  - section: "Alternate Start"
+    description: "Choose one of the following alternate starts."
+    tags: [ required_by_parent ]
+    # Note that the last item is the preferred item automatically.
+    mods:
+    - name: "Realm of Lorkhan - Freeform Alternate Start"
+      tags: [ only_one_allowed ]
+    - name: "Alternate Start - Live Another Life - SSE"
+      tags: [ only_one_allowed ]
+  - name: "SkyUI"
+    tags: [ required_by_parent ]
+  - name: "UIExtensions"
+    tags: [ required_by_parent ]
+  - name: "QUI"
+    tags: [ required_by_parent ]
+  - name: "ConsoleUtilSSE"
+    tags: [ required_by_parent ]
+  - name: "Forces New Idles In Skyrim (FNIS) XXL"
+    tags: [ ]
+  - name: "Nemesis"
+    tags: [ required_by_parent ]
+  - name: "JContainers SE"
+    tags: [ required_by_parent ]
+  - name: "PapyrusUtil SE"
+    tags: [ required_by_parent ]
+  - name: "RaceMenu"
+    tags: [ required_by_parent ]
+  - name: "Fuz Ro D-oh - Silent Voice"
+    tags: [ required_by_parent ]
+  - name: "BodySlide and Outfit Studio"
+    tags: [ required_by_parent ]
+  - section: "Body Replacer"
+    description: "Choose one of the following body replacers. CBBE recommended."
+    tags: [ required_by_parent ]
+    mods:
+    # Note that the last item is the preferred item automatically.
+    - name: "BHUNP Body Replacer (UNP Next Generation)"
+      tags: [ only_one_allowed ]
+    - name: "Caliente's Beautiful Bodies Enhancer -CBBE-"
+      tags: [ only_one_allowed ]
+  - name: "XP32 Maximum Skeleton Special Extended - XPMSSE"
+    tags: [ required_by_parent ]
+  - name: "FSMP - Faster HDT-SMP"
+    tags: [ required_by_parent ]
+  - name: "SMP-NPC crash fix"
+    tags: [ required_by_parent ]
+  - name: "Mfg Fix"
+    tags: [ required_by_parent ]

@@ -1,0 +1,10 @@
+- name: "XP32 Maximum Skeleton Special Extended - XPMSSE"
+  description: "Updated skeleton. Needed by lots of mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/1988
+  mod_order:
+  - after: "body-replacer"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1wCaUo0NSkkpWLkMGyZC96OKtURQTrLJx/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/1988?tab=files&file_id=449968

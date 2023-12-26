@@ -1,0 +1,14 @@
+- name: "PapyrusUtil SE"
+  description: "Needed by other mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/13048
+  mod_order:
+  - after: "JContainers SE"
+  install:
+  - game_version: 1.6.640.0
+    urls:
+    - https://drive.google.com/file/d/1AwP4ZBilB80NzShxm1On9Vzutm3_S1wE/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/13048?tab=files&file_id=319680
+  - game_version: 1.6.1130.0
+    urls:
+    - https://drive.google.com/file/d/1wmZS-T6qZ5Qb7nqLupgtHX0ydR7FVDCN/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/13048?tab=files&file_id=449145

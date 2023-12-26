@@ -1,0 +1,12 @@
+- name: "SkyUI"
+  description: "Overhauls the user interface of Skyrim Special Edition. Needed by many mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=description
+  required: true
+  requires:
+  mod_order:
+  - after: "SSE Engine Fixes (skse64 plugin) Part 2"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/18JuVVwSC0oGXpzoXwuQ8XspX59ZgqgZy/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files&file_id=35407

@@ -1,0 +1,12 @@
+- name: "Realm of Lorkhan - Freeform Alternate Start"
+  description: "Starts in a different realm. Here, you can create your character, choose Classes and Curses, and start playing from a large selection of places!"
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/18223
+  mod_order:
+  - after: "SSE Engine Fixes (skse64 plugin) Part 2"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/17tViyXs9J0bK82skUqCIxVfIuSoTEv1Q/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/18223?tab=files&file_id=319703
+  instructions-helpful: |
+    You have installed the Realm of Lorkhan mod start-game replacer. This will be your starting point for new games.

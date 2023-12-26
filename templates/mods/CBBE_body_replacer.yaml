@@ -1,0 +1,14 @@
+- name: "Caliente's Beautiful Bodies Enhancer -CBBE-"
+  description: "Body model for female characters. Needed by lots of mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/198
+  tag: body-replacer
+  only_one_with_tag: body-replacer
+  mod_order:
+  - after: "RaceMenu"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1KX6ZUr5mcqRbm0H9rWxYlm2_Yydgropn/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/198?tab=files&file_id=438549
+  instructions-helpful: |
+    Note that you are using a CBBE-based body. Make sure to install outfits that are compatible with CBBE. You will need to use Bodyslide and Outfit Studio to convert outfits to your body type. See the Bodyslide and Outfit Studio mod page for more information.

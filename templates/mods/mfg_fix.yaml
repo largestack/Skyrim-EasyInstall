@@ -1,0 +1,10 @@
+- name: "Mfg Fix"
+  description: "Facegen commands. Needed by lots of mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/11669/
+  mod_order:
+  - after: "FSMP - Faster HDT-SMP"
+  install:
+  - game_version: 1.6.629.0+
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/11669?tab=files&file_id=320400
+    - https://drive.google.com/file/d/1ooKpGrxrBI9HW8krCBy8ELeBEUWL11W9/view?usp=drive_link
