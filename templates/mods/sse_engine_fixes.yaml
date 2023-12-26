@@ -1,0 +1,26 @@
+- name: "SSE Engine Fixes (skse64 plugin) Part 1"
+  description: "Skse64 plugin to fix various issues with the Skyrim Special Edition engine."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=description
+  required: true
+  requires:
+  mod_order:
+  - fixed: 0
+  install:
+  - game_version: 1.6.629.0+
+    urls:
+    - https://drive.google.com/file/d/1aCBqo-VxU-KPgkgZsW3zKJ4Ke0szOjqL/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files&file_id=321815
+
+- name: "SSE Engine Fixes (skse64 plugin) Part 2"
+  description: "Skse64 plugin to fix various issues with the Skyrim Special Edition engine."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=description
+  required: true
+  requires:
+  mod_order:
+  - fixed: 0
+  install:
+  - game_version: 1.6.629.0+
+    type: copy_to_game
+    urls:
+    - https://drive.google.com/file/d/1i-Mih1ZVYYLzreOFUVmkxDTAfPClijEy/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files&file_id=181171

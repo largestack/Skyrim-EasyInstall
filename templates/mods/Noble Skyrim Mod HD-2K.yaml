@@ -1,0 +1,9 @@
+- name: "Noble Skyrim Mod HD-2K"
+  description: "Give all of Skyrim's architecture a complete new look by changing its textures to custom ones"
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/21423
+  mod_order:
+  - after: "XP32 Maximum Skeleton Special Extended - XPMSSE"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/21423?tab=files&file_id=73168

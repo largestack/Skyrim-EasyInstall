@@ -1,0 +1,12 @@
+- name: "ConsoleUtilSSE"
+  description: "This mod enables papyrus scripts to execute console commands. Needed by mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/65343?tab=description
+  required: true
+  requires:
+  mod_order:
+  - after: "QUI"
+  install:
+  - game_version: 1.6.640.0+
+    urls:
+    - https://drive.google.com/file/d/1Dyk82ZIDQ_jo9fOb5GQXCBlEl0pcH7aP/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/24858?tab=files&file_id=324120

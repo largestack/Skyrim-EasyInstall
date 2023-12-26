@@ -1,0 +1,14 @@
+- name: "Fuz Ro D-oh - Silent Voice"
+  description: "Adds support for non-voiced dialog. Needed by many mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/15109
+  mod_order:
+  - after: "RaceMenu"
+  install:
+  - game_version: 1.6.640.0
+    urls:
+    - https://drive.google.com/file/d/19HmeMKk9_A2cb470i7orgbUBPClRQt5Z/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/15109?tab=files&file_id=327645
+  - game_version: 1.6.1130.0
+    urls:
+    - https://drive.google.com/file/d/1GdjyCI3mUl_6ZPW6QJ9wNl0OG_iRlJ9o/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/15109?tab=files&file_id=451143

@@ -1,0 +1,12 @@
+# Credits to Lustful Luna's guide, which I based a good part of this template on.
+# https://docs.google.com/document/d/13oShYySr5gG0RwP8NA8coaDdnjRdiVhzg144H3J5Xs0/edit
+- name: "Basic Skyrim Starting Point"
+  description: "Most key dependencies along with things like skeleton and body replacers installed."
+  gui_show_in_table: true
+  gui_order_in_table: 0.5
+  gui_checked_by_default: true
+  mods:
+  - name: "Skyrim Core Dependencies"
+    tags: [ required_by_parent ]
+  - name: "Improved Visuals"
+    tags: [ ]

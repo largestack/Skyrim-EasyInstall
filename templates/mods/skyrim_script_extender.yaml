@@ -1,0 +1,19 @@
+- name: "Skyrim Script Extender (SKSE64)"
+  description: "Skyrim Script Extender (SKSE64), needed by tons of mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=description
+  required: true
+  requires:
+  mod_order:
+  - fixed: 0
+  install:
+  - game_version: 1.6.640.0
+    urls:
+    - https://drive.google.com/file/d/1oyehB9C8Tl2bLMMxt5MM6Ys5175FYL8N/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=files&file_id=323365
+  - game_version: 1.6.1130.0
+    urls:
+    - https://drive.google.com/file/d/1wGUux_MXCVCVQyjir9gHWaSKEvYK0u7c/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=files&file_id=449463
+  post_install:
+  - action: set_mo2_start_executable
+    executable: <GAME_PATH>/skse64_loader.exe

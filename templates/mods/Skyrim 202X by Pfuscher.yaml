@@ -1,0 +1,49 @@
+- name: "Skyrim 202X by Pfuscher part 1"
+  description: "High Res Textures for cities, dungeons, clutter, armors, landscapes and much more."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/2347
+  mod_order:
+  - after: "Noble Skyrim Mod HD-2K"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/2347?tab=files&file_id=321878
+
+- name: "Skyrim 202X by Pfuscher part 2"
+  description: "... part 2"
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/2347
+  mod_order:
+  - after: "Skyrim 202X by Pfuscher part 1"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/2347?tab=files&file_id=321906
+
+- name: "Skyrim 202X by Pfuscher part 3"
+  description: "... part 3"
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/2347
+  mod_order:
+  - after: "Skyrim 202X by Pfuscher part 2"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/2347?tab=files&file_id=322212
+
+- name: "Skyrim 202X by Pfuscher update 1"
+  description: "... part 2"
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/2347
+  mod_order:
+  - after: "Skyrim 202X by Pfuscher part 3"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/2347?tab=files&file_id=436153
+
+- name: "Skyrim 202X by Pfuscher update 2"
+  description: "... part 2"
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/2347
+  mod_order:
+  - after: "Skyrim 202X by Pfuscher update 1"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://www.nexusmods.com/skyrimspecialedition/mods/2347?tab=files&file_id=446847&nmm=1

@@ -1,0 +1,12 @@
+- name: "Address Library for SKSE Plugins"
+  description: "Needed by many mods as a dependency."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=description
+  required: true
+  requires:
+  mod_order:
+  - after_immediately: "Skyrim Script Extender (SKSE64)"
+  install:
+  - game_version: 1.6.*.*
+    urls:
+    - https://drive.google.com/file/d/1895RBqdxKCx_BkVYh_8THpsh7xiCpfyI/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files&file_id=449064

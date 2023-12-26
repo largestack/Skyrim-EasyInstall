@@ -1,0 +1,17 @@
+- name: "BodySlide and Outfit Studio"
+  description: "Needed to convert outfits to CBBE and other body types. Needed by some mods."
+  official_website: https://www.nexusmods.com/skyrimspecialedition/mods/201
+  mod_order:
+  - after: "RaceMenu"
+  install:
+  - game_version: "*.*.*.*"
+    urls:
+    - https://drive.google.com/file/d/1hDwFuMwP4Jwy408FIApncNISjKYNEe1R/view?usp=drive_link
+    - https://www.nexusmods.com/skyrimspecialedition/mods/201?tab=files&file_id=421192
+  instructions-critical: |
+    BodySlide and Outfit Studio is needed to convert outfits to CBBE and other body types. You need
+    to run BodySlide and Outfit Studio when you install a new outfit. This can be a bit complex
+    at first. See section "Bodyslide and outfit studio tutorial" in this guide document here:
+      https://docs.google.com/document/d/13oShYySr5gG0RwP8NA8coaDdnjRdiVhzg144H3J5Xs0/edit
+    
+    Do this once all your clothes/armors and body are installed.
